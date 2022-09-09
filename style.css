@@ -23,7 +23,7 @@
     --titlesFont: "Ginerin";
     --regularText: "XX";
 }
-
+/*----------------------------- TOP BANNER ---------------------------------------*/
 #topBanner {
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@
     font-family: var(--titlesFont);
     color: var(--highlightColor);
     font-size: calc(10px + 1.5vw);
-    text-shadow: 6px 5px var(--lightBackground);
+    text-shadow: 0px 8px var(--lightBackground);
 }
 #leftBanner {
     width: 40%;
@@ -60,12 +60,100 @@
     height: 100%;
     margin: 5%;
 }
-#infoBox ul {
+#infoBox ul, a {
     font-family: var(--regularText);
     font-size: calc(5px + 1vw);
     color: var(--darkColor);
+    transition: 0.5s;
 }
 #infoBox img {
-    width: 18px;
+    width: 20px;
     margin-right: 10px;
+    margin-top: 5px;
+}
+a:hover {
+    color: var(--highlightColor); 
+}
+/*------------------------------------- PROJECT CARDS ------------------------------------------*/
+#mainDataCont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#projectCont {
+    width: 30%;
+    margin: 5%;
+    position: relative;
+}
+#titleCont {
+    position: absolute;
+    width: 30%;
+    background: var(--highlightColor);
+    border-radius: 20px;
+    left: 35%;
+}
+#titleCont h1 {
+    font-family: var(--regularText);
+    margin: 5%;
+    text-align: center;
+    color: white;
+    font-size: calc(5px + 1vw);
+}
+#projectBodyCont {
+    width: 100%;
+    height: 30em;
+    background: var(--lightBackground);
+    border-radius: 20px;
+    margin-top: 6%;
+    box-shadow: 5px 5px 0px 0px var(--highlightColor);
+}
+#projectImg {
+    width: 90%;
+    padding: 4%;
+    margin: auto;
+}
+#projectImg img {
+    width: 100%;
+    border-radius: 15px;
+}
+#projectInfoCont {
+    width: 95%;
+    background: white;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#projectInfoCont p{
+    padding: 3%;
+    font-family: var(--regularText);
+    text-align: justify;
+}
+#btnCont {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2%;
+}
+.linkBtn {
+    width: 30%;
+    height: 2.5em;
+
+}
+button {
+    width: 100%;
+    height: 100%;
+    background: var(--highlightColor);
+    border: none;
+    border-radius: 20px;
+    font-family: var(--regularText);
+    color: white;
+    transition: 0.8s;
+}
+button:hover {
+    transform: scale(105%);
+    background: white;
+    border: 2px solid var(--highlightColor);
+    color: var(--highlightColor);
 }

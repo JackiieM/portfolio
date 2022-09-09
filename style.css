@@ -1,0 +1,71 @@
+/* reset */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* fonts */
+@font-face {
+    font-family: "Ginerin";
+    src: url("./resources/fonts/GINERIN-REGULAR.OTF");
+}
+@font-face {
+    font-family: "XX";
+    src: url("./resources/fonts/XXIIAVEN-MEDIUM.TTF");
+}
+/* presets */
+:root {
+    --lightBackground: #EFEFEF;
+    --highlightColor: #FFBE00;
+    --darkColor: #363636;
+    --titlesFont: "Ginerin";
+    --regularText: "XX";
+}
+
+#topBanner {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 2%;
+    align-items: center;
+}
+#profilePic {
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+#myName {
+    font-family: var(--titlesFont);
+    color: var(--highlightColor);
+    font-size: calc(10px + 1.5vw);
+    text-shadow: 6px 5px var(--lightBackground);
+}
+#leftBanner {
+    width: 40%;
+}
+#infoCont {
+    width: 90%;
+    height: 10%;
+    background: var(--lightBackground);
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 0px var(--highlightColor);
+    display: flex;
+    flex-direction: column;
+}
+#infoBox {
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+}
+#infoBox ul {
+    font-family: var(--regularText);
+    font-size: calc(5px + 1vw);
+    color: var(--darkColor);
+}
+#infoBox img {
+    width: 18px;
+    margin-right: 10px;
+}

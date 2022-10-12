@@ -96,9 +96,59 @@ export default {
             "name": "Niverse",
             "about": "Red social para los amantes de los videojuegos de Nintendo. Permite registrarse con sus propios de datos o a través de una cuenta de google. Los registros se manejan en base a Firebase y los datos de perfil y posts se almacenan en Firestore.",
             "time": "Ago 17, 2022 a",
-            "image": "https://cdn.discordapp.com/attachments/704073351051870209/1017595135544008756/unknown.png",
-            "demo": "https://jackiiem.github.io/SCL021-data-lovers/src/index.html",
+            "image": "./resources/niverse.png",
+            "demo": "https://red-social-ninverse.web.app/",
             "repo": "https://github.com/JackiieM/SCL021-social-network",
+            "tools": [
+                {
+                    "tool": "Javascript",
+                    "icon": "https://api.iconify.design/mdi:language-javascript.svg?color=%23ffc800",
+                },
+                {
+                    "tool": "CSS",
+                    "icon": "https://api.iconify.design/akar-icons:css-fill.svg?color=%230084ff",
+                },
+                {
+                    "tool": "HTML5",
+                    "icon": "https://api.iconify.design/logos:html-5.svg?color=%230084ff",
+                },
+                {
+                    "tool": "Visual Studio Code",
+                    "icon": "https://api.iconify.design/vscode-icons:file-type-light-replit.svg?color=%230084ff",
+                },
+                {
+                    "tool": "Firebase",
+                    "icon": "https://api.iconify.design/logos:firebase.svg?color=%23000000",
+                },
+                {
+                    "tool": "Git",
+                    "icon": "https://api.iconify.design/mdi:git.svg?color=%23ff7300",
+                },
+                {
+                    "tool": "Github",
+                    "icon": "https://api.iconify.design/mdi:github.svg?color=%23000000",
+                },
+                {
+                    "tool": "Figma",
+                    "icon": "https://api.iconify.design/logos:figma.svg?color=%23000000",
+                },
+                {
+                    "tool": "Trello",
+                    "icon": "https://api.iconify.design/logos:trello.svg?color=%23000000",
+                },
+                {
+                    "tool": "Adobe Photoshop",
+                    "icon": "https://api.iconify.design/vscode-icons:file-type-photoshop.svg?color=%23000000",
+                },
+            ] 
+        },
+        {
+            "name": "MDScan",
+            "about": "Herramienta CLI.",
+            "time": "Ago 17, 2022 a",
+            "image": "https://raw.githubusercontent.com/JackiieM/SCL021-md-links/main/examples/05.png",
+            "demo": "https://www.npmjs.com/package/mdscan",
+            "repo": "https://github.com/JackiieM/SCL021-md-links",
             "tools": [
                 {
                     "tool": "Javascript",

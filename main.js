@@ -1,7 +1,9 @@
 import data from "./projects.js"
 // Variables de data
 const allProjects = data.projects
-console.log(allProjects)
+const [p1, p2, p3, p4] = allProjects;
+const {tools} = p1
+console.log(tools)
 const titles = data.projects.map(data => data.name);
 const descriptions = data.projects.map(data => data.about);
 const dates = data.projects.map(data => data.time);

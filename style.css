@@ -23,6 +23,9 @@
     --titlesFont: "Ginerin";
     --regularText: "XX";
 }
+body{
+    background: #f6f6f6;
+}
 /*----------------------------- TOP BANNER ---------------------------------------*/
 #topBanner {
     display: flex;
@@ -35,13 +38,14 @@
     width: 13%;
     height: 13%;
     border-radius: 50%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 #myName {
     font-family: var(--titlesFont);
     color: var(--highlightColor);
     font-size: calc(10px + 1.5vw);
     text-shadow: 0px 8px var(--lightBackground);
+    margin: 2%;
 }
 #leftBanner {
     width: 40%;
@@ -51,6 +55,7 @@
     height: 10%;
     background: var(--lightBackground);
     border-radius: 20px;
+    border: 2px solid var(--highlightColor);
     box-shadow: 5px 5px 0px 0px var(--highlightColor);
     display: flex;
     flex-direction: column;
@@ -81,7 +86,7 @@ a:hover {
     flex-wrap: wrap;
 }
 #projectCont {
-    width: 30%;
+    width: 40%;
     margin: 5%;
     position: relative;
 }
@@ -89,7 +94,7 @@ a:hover {
     position: absolute;
     width: 30%;
     background: var(--highlightColor);
-    border-radius: 20px;
+    border-radius: 10px;
     left: 35%;
 }
 #titleCont h1 {
@@ -101,10 +106,10 @@ a:hover {
 }
 #projectBodyCont {
     width: 100%;
-    height: 30em;
     background: var(--lightBackground);
     border-radius: 20px;
     margin-top: 6%;
+    border: 2px solid var(--highlightColor);
     box-shadow: 5px 5px 0px 0px var(--highlightColor);
 }
 #projectImg {
@@ -119,10 +124,11 @@ a:hover {
 #projectInfoCont {
     width: 95%;
     background: white;
-    margin: auto;
+    margin: 2%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 #projectInfoCont p{
     padding: 3%;
@@ -147,6 +153,7 @@ button {
     background: var(--highlightColor);
     border: none;
     border-radius: 20px;
+    font-size: calc(3px + 1vw);
     font-family: var(--regularText);
     color: white;
     transition: 0.8s;

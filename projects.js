@@ -144,7 +144,7 @@ export default {
         },
         {
             "name": "MDScan",
-            "about": "Herramienta CLI.",
+            "about": "Herramienta CLI que analiza archivos markdown en buscqueda de links para luego validar el estado de estos.",
             "time": "Ago 17, 2022 a",
             "image": "https://raw.githubusercontent.com/JackiieM/SCL021-md-links/main/examples/05.png",
             "demo": "https://www.npmjs.com/package/mdscan",
@@ -155,20 +155,12 @@ export default {
                     "icon": "https://api.iconify.design/mdi:language-javascript.svg?color=%23ffc800",
                 },
                 {
-                    "tool": "CSS",
-                    "icon": "https://api.iconify.design/akar-icons:css-fill.svg?color=%230084ff",
-                },
-                {
-                    "tool": "HTML5",
-                    "icon": "https://api.iconify.design/logos:html-5.svg?color=%230084ff",
+                    "tool": "NodeJS",
+                    "icon": "https://api.iconify.design/fontisto:nodejs.svg?color=%2352a362",
                 },
                 {
                     "tool": "Visual Studio Code",
                     "icon": "https://api.iconify.design/vscode-icons:file-type-light-replit.svg?color=%230084ff",
-                },
-                {
-                    "tool": "Firebase",
-                    "icon": "https://api.iconify.design/logos:firebase.svg?color=%23000000",
                 },
                 {
                     "tool": "Git",
@@ -177,18 +169,6 @@ export default {
                 {
                     "tool": "Github",
                     "icon": "https://api.iconify.design/mdi:github.svg?color=%23000000",
-                },
-                {
-                    "tool": "Figma",
-                    "icon": "https://api.iconify.design/logos:figma.svg?color=%23000000",
-                },
-                {
-                    "tool": "Trello",
-                    "icon": "https://api.iconify.design/logos:trello.svg?color=%23000000",
-                },
-                {
-                    "tool": "Adobe Photoshop",
-                    "icon": "https://api.iconify.design/vscode-icons:file-type-photoshop.svg?color=%23000000",
                 },
             ] 
         },

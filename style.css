@@ -25,6 +25,7 @@
 }
 body{
     background: #f6f6f6;
+    background-image: url("./resources/background-pf.png");
 }
 /*----------------------------- TOP BANNER ---------------------------------------*/
 #topBanner {
